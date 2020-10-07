@@ -2,15 +2,13 @@ import React from "react";
 import "./style.css";
 
 function Jumbotron({ children }) {
-  return (
-
-    <div
-      style={{ height: 200, clear: "both", textAlign: "center" }}
-      className="jumbotron">
-      {children}
-    </div>
-
-  );
+    return (
+        <div className="jumbotron jumbotron-fluid d-flex align-items-center">
+            <div className="container text-center">
+                {children}
+            </div>
+        </div>
+    );
 }
 
 export default Jumbotron;

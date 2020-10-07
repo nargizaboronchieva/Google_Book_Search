@@ -1,11 +1,12 @@
-#search, #saved {
-    color: #ffffff;
+.navbar {
+  background-color: #BF5D01
 }
 
-#search:hover, #saved:hover {
-    color: #e74944;
+a {
+  color: #FFFFFF;
+  font-size: 14pt;
 }
 
-#nav {
-    background-color: black;
+a:hover {
+  color: rgb(160, 157, 157)
 }
