@@ -1,14 +1,16 @@
 .delete {
-  background-color: #73160E;
-  color: #FFFFFF
+  background-color: red;
+  color: #FFFFFF;
+  font-family: 'Sansita Swashed', cursive;
 }
 
+
 .view {
-  background-color: #D9A711;
+  background-color: #01bf50;
 }
 
 .card {
   border-style: solid;
   border-width: 1px;
-  border-color: #73160E
+  border-color: #01bf50;
 }

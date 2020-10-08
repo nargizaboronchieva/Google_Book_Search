@@ -1,12 +1,18 @@
 .navbar {
-  background-color: #BF5D01
+  background-color: #01bf50
 }
 
 a {
   color: #FFFFFF;
   font-size: 14pt;
+  font-family: 'Sansita Swashed', cursive;
+
 }
 
 a:hover {
   color: rgb(160, 157, 157)
+}
+
+h2 {
+  font-family: 'Sansita Swashed', cursive;
 }

@@ -1,12 +1,8 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "./index.css";
+import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
 
-const Footer = () => (
-	<footer className="page-footer">
-		<div className="container-fluid text-center">
-			<p>Copyright 2019 - Amanda Tomé</p>
-		</div>	
-	</footer>
-);
-
-export default Footer;
+ReactDOM.render(<App />, document.getElementById("root"));
+registerServiceWorker();

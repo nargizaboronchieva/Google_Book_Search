@@ -1,6 +1,7 @@
 .save {
-  background-color: #A8392E;
-  color: #FFFFFF
+  background-color: #2ea838;
+  color: #FFFFFF;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .view {
@@ -10,6 +11,6 @@
 .card {
   border-style: solid;
   border-width: 1px;
-  border-color: #73160E;
+  border-color: #01bf50;
   margin-bottom: 330rem;
 }
